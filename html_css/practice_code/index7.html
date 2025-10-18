@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container {
+            height: 400px;
+            width:700px;
+            border: 2px solid black;
+            display: flex;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+            justify-content: center;
+        }
+        .heading {
+            width: 50%;
+            border: 2px solid black;
+            padding: 20px;
+            margin-top: 10px;
+        }
+        .image {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0px 0px 10px;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+            /* overflow: hidden; */
+        }
+        #img1 {
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .shubham_h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .skills {
+            height: 200px;
+            width: 700px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+
+        }
+        .skills_h1 {
+            width: 100%;
+            text-align:center;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .java, .python, .Ml {
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+            text-align: center;
+            gap: 10px;
+        }
+        .icon-j, .icon-p, .icon-m {
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            border-radius: 50%;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+            margin-bottom: 10px;
+            /* text-align: center; */
+        }
+        .h2-j,.h2-p,.h2-m{
+            text-align: center;
+            /* width: 100%; */
+            margin: 20px 0;
+            font-size: 20px;
+        }
+        .projects {
+            height: 200px;
+            width: 700px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+
+        }
+        .project_h1 {
+            width: 100%;
+            text-align:center;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        .portfolio, .website, .figma {
+            height: 150px;
+            width: 150px;
+            border: 2px solid black;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+            
+        }
+        .links {
+            height: 200px;
+            width: 700px;
+            border: 2px solid black;
+            /* display: flex;
+            justify-content: space-around;
+            align-items: center; */
+            margin-top: 20px;
+            text-align: center;
+            background-color: #f4f4f9;
+            box-shadow: 10px 10px 10px 10px rgb(220, 220, 226);
+
+        }
+        .contact_h1 {
+            width: 100%;
+            text-align:center;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 class="shubham_h1">SHUBHAM MANE</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio suscipit consequuntur voluptate doloribus distinctio provident porro!</p>
+        </div>
+        <div class="image">
+            <img src="https://images.pexels.com/photos/18422779/pexels-photo-18422779.jpeg" alt="profile-image" id="img1">
+        </div>
+    </div>
+
+    <h1 class="skills_h1">Skills</h1>
+    <div class="skills">
+        <div class="java">
+            <div class="icon-j"></div>
+            <h2 class="h2-j">Java</h1>
+        </div>
+        <div class="python">
+            <div class="icon-p"></div>
+            <h2 class="h2-p">Python</h1>
+        </div>
+        <div class="Ml">
+            <div class="icon-m"></div>
+            <h2 class="h2m">Machine Learning</h1>
+        </div>
+    </div>
+    <h1 class="project_h1">Projects</h1>
+    <div class="projects">
+        <div class="portfolio">Portfolio
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="website">Website
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="figma">Figma
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <h1 class="contact_h1">Contact us</h1>
+    <div class="links">
+        <h2>Linkedin</h1>
+        <a href="https://www.linkedin.com/posts/free-courses-certificates_the-complete-django-rest-framework-bootcamp-activity-7316056271827181568-2d8t?utm_source=share&utm_medium=member_android&rcm=ACoAAEv_ppIBkmSyFOWNtYXjeWA17JUkz7MkM7w">click me</a>
+    </div>
+</body>
+</html>

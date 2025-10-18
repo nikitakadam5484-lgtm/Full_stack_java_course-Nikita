@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ===== NAVBAR ===== */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #043873;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  /* here we used top 0 coz if we scroll navbar  it remains as it is that positions as like sticky */
+  z-index: 9999;
+  /* ensure it always stays above all content */
+}
+
+.logo h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  /* here we used font weight for the bold and light the text */
+  text-align: center;
+  text-transform: capitalize;
+  /* text transform here we used for capetelize the first letter of the word */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 1.1s ease;
+}
+
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+.darrow-icon {
+  width: 18px;
+  height: 18px;
+  transform: scale(2);
+}
+
+/* ===== NAV BUTTONS ===== */
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-btn {
+  background-color: #ffe492;
+  color: #043873;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  /* remove border from butten */
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.try-btn {
+  background-color: #4f9cf9;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.5s;
+}
+
+.try-btn .arrow-icon {
+  width: 22px;
+  /* bigger arrow */
+  height: 22px;
+  object-fit: contain;
+  transform: scale(2);
+}
+
+.login-btn:hover,
+.try-btn:hover {
+  opacity: 0.85;
+  /* just like we go on that btn it will transparent  0.85 */
+}
+
+
+/* ===== HERO SECTION ===== */
+.hero {
+  background-color: #043873;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 200px;
+  gap: 50px;
+}
+
+.hero-content {
+  width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.hero .try-btn {
+  width: fit-content;
+  padding: 14px 32px;
+  gap: 8px;
+}
+
+.hero-image {
+  width: 1000px;
+  height: 450px;
+  background-color: #c4defd;
+
+}
+
+
+/* ===== PROJECT SECTION ===== */
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+  background-color: #fff;
+}
+
+.project-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.project-extension-content {
+  width: 400px;
+}
+
+.project-extension-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.project-extension-content p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+
+.project .try-btn {
+  width: fit-content;
+  padding: 14px 32px;
+  gap: 8px;
+}
+
+.project-image {
+  width: 650px;
+  height: 450px;
+  background-color: #c4defd;
+  margin-left: 30px;
+  /* border-radius: 10px; */
+}
+
+
+/* ===== EXTENSION SECTION ===== */
+.extension {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+  background-color: #043873;
+}
+
+.extension-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.extension .try-btn {
+  width: fit-content;
+  padding: 14px 32px;
+  gap: 8px;
+}
+
+/* <!-- ===== PRICING SECTION ===== --> */
+
+.pricing {
+  text-align: center;
+  padding: 100px 80px;
+
+}
+
+.pricing-head {
+  margin-bottom: 40px;
+}
+
+.pricing-head h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricing-head p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  /* text-align: center; */
+}
+
+.price-list {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 30px; */
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.price-board {
+  /* flex: 1; */
+  width: 350px;
+  height: 450px;
+  padding: 40px;
+  gap: 30px;
+  border: 1px solid #FFE492;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform (0.3) ease;
+  box-shadow: 0.3s;
+
+}
+
+.price-board:hover {
+  transform: translateY(-5px);
+  background-color: #0c2c6a;
+  color: white;
+  transform: scale(1.1);
+
+}
+
+.price-board h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  /* columns: black; */
+
+}
+
+.price-board h3 {
+  font-size: 26px;
+  /* color: black; */
+  /* color:#FFE492; */
+  margin-bottom: 15px;
+}
+
+.price-board h3:hover {
+  color: #FFE492;
+  transition: none;
+  transform: none;
+}
+
+.price-board ul {
+  list-style: none;
+  /* color:black; */
+  /* margin-bottom: 15px; */
+}
+
+.price-board li {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  /* color: black; */
+  /* margin-bottom: 10px; */
+}
+
+.btn {
+  /* height: 15px; */
+  padding: 0px 10px;
+  /* border: 1px solid #FFE492; */
+  border-radius: 4px;
+  width: fit-content;
+  transform: scale(1.5);
+  transition: 0.3s ease;
+  /* transition: all 1s; */
+  cursor: pointer;
+  margin: 25px 0px 0px 20px;
+  /* background-color: #4F9CF9; */
+  /* color: #0c2c6a; */
+
+}
+
+.btn:hover {
+  background-color: #4F9CF9;
+  /* transition: all; */
+}
+
+.click-btn {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  /* transition: filter 0.2s ease-in-out;  */
+  transition: all;
+  cursor: pointer;
+
+
+}
+
+.click-btn:hover {
+  /* fill: white; */
+  filter: brightness(0) invert(1);
+  /* white on hover */
+
+}
+
+/* .highlight{
+      background-color: #0c2c6a;
+      color: white;
+    }
+.highlight .btn{
+  background-color: #4F9CF9;
+  color: #0c2c6a;
+} */
+
+/* Sponsors */
+.sponsors {
+  padding: 80px;
+  text-align: center;
+}
+
+.sponsors h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* .sponsers-logos{
+     padding-right: 50px; 
+       display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    } */
+.sponsor-logos img {
+  height: 40px;
+  margin: 0 20px;
+  padding-right: 180px;
+  margin-top: 50px;
+  /* display: flex;
+      justify-content: space-evenly; 
+       align-items: center;  */
+}
+
+
+
+/* Testimonials */
+.testimonials {
+  background-color: #f9fafb;
+  padding: 100px 80px;
+  text-align: center;
+}
+
+.testimonials h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-box {
+  background-color: #cbd5f5;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  height: 400px;
+  color: #0c2c6a;
+}
+
+.testimonial-comment {
+  margin: 50px 10px;
+  border-bottom: 1px solid black;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.test-name {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* .name-box{
+      padding: 20px;
+      margin:20px;
+    } */
+.test-name .test-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+#img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.dot-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  width: 100%;        /* Make it take full width */
+  height: auto;       /* Let height adjust automatically */
+}
+
+.dot-img img {
+  height: 12px;       /* Slightly bigger dots (optional) */
+  width: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.dot-img img:hover {
+  transform: scale(1.2); /* Small hover effect for interaction */
+  
+}
+
+
+/* Footer */
+footer {
+  color: white;
+  padding: 60px 80px;
+  margin: 70px 0px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+
+.footer-content {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 50px 0px;
+  /* flex-wrap: wrap; */
+  background-color: #043873;
+  color: white;
+}
+
+.col {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.col h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.col a {
+  display: block;
+  color: #d1d5db;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.colr a:hover {
+  color: white;
+}
+
+.footer-btn {
+  background-color: #4f9cf9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.footer-btn:hover {
+  opacity: 0.85;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Shubham</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .container {
+      background: white;
+      width: 360px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    .header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid white;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      object-fit: cover;
+    }
+
+    .header h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      padding: 20px;
+      border-top: 1px solid #ddd;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      background-color: #e9f2ff;
+      color: #007bff;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .projects {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .project {
+      background-color: #f1f1f1;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-align: center;
+      width: 90px;
+      font-weight: 500;
+      margin: 5px 0;
+    }
+
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      text-align: center;
+    }
+
+    .contact a {
+      text-decoration: none;
+      color: #007bff;
+      background-color: #e9f2ff;
+      padding: 8px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      background-color: #007bff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Shubham</h1>
+      <p>Web Developer | Programmer | Tech Enthusiast</p>
+      <img src="https://www.pexels.com/photo/serene-black-and-white-portrait-of-cat-30053277/" alt="Profile Image">
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">HTML</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">Portfolio</div>
+        <div class="project">To-Do App</div>
+        <div class="project">ChatBot</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <div class="contact">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Email</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

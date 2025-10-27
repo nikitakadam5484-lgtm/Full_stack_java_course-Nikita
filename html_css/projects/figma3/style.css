@@ -1,0 +1,1090 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+ /* header page */
+#headerpage{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    
+    position: relative;
+    /* padding-left: 10rem;
+    padding-right: 10rem; */
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+
+    
+}
+.leftstackbox{
+    height: 40%;
+    width: 15%;
+    background-color: #EFF8ED;
+    border-radius: 4rem;
+    position: absolute;
+    left: -7rem;
+    top: -6rem;
+    box-sizing: border-box;
+    z-index: -1;
+
+}
+.rightstackbox{
+    height: 95%;
+    width: 50%;
+    background-color: #EFF8ED;
+    border-radius: 4rem;
+    position: absolute;
+    right: -6rem;
+    top: -6rem;
+    box-sizing: border-box;
+    z-index: -1;
+}
+.navbarbox{
+    /* border: 1px solid black; */
+    height: 12%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navchildbox1{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.navchildbox2{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid aqua; */
+    margin-right: 12rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+
+
+
+}
+.Brandname{
+    font-size: 24px;
+  font-weight: 900;
+  color: #252B42;
+  letter-spacing: 0.1px;
+}
+.navoptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    list-style-type: none;
+    font-size: 14px;
+    color: #737373;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+.logintext{
+ color: #96BB7C;
+ font-size: 14px;
+ letter-spacing: 0.2px;
+ font-weight: bold;
+}
+.joinusbutton{
+    height: 52%;
+    width: 55%;
+    border: none;
+    font-size: 12px;
+    background-color: #96BB7C;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.maincontentbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 6rem;
+    
+    gap: 2rem;
+   
+    padding: 3rem;
+    
+    
+}
+.headertagline{
+    color: #96BB7C;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    /* border: 1px solid black; */
+    
+}
+.headerheadline{
+    color: #252B42;
+    font-size: 50px;
+    font-weight: bolder;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 60%;
+ 
+}
+.headerpara{
+    color: #737373;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 60%;
+    margin-top: 1rem;
+    font-weight: bold;
+
+
+}
+.headerbuttonbox{
+   
+    
+    display: flex;
+   justify-content: space-between;
+   /* border: 1px solid black; */
+   gap: 0.5rem;
+
+    
+    
+}
+.headerbutton1{
+   border-radius: 5px;
+   background-color: #96BB7C;
+   /* height: 120%; */
+   padding: 0.5rem 2rem;
+   border: none;
+  
+
+
+
+}
+.headerbutton2{
+    border-radius: 2px;
+    background-color:transparent;
+    border: 1px solid  #96BB7C;
+   padding: 1rem 2rem;
+   border-radius: 5px;
+   
+
+
+ 
+ }
+ .headerbuttontext1{
+    margin-top: 1rem;
+   margin-bottom: 1rem;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+
+
+ }
+.headerbuttontext2{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+    color: #96BB7C;
+    font-weight: bold;
+
+    font-size: 12px;
+}
+/* company symbols */
+#companysection{
+    height: 30vh;
+    width: 100%;
+    /* border: 1px solid  #96BB7C; */
+    /* background-color: black; */
+    /* padding: 3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 1rem;
+
+    
+}
+.companylogobox{
+    height: 50%;
+    /* border: 1px solid  #96BB7C; */
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+
+}
+ /* package section page 3 */
+#packagesection{
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+.packagedescpbox{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 4rem;
+    /* box-sizing: border-box; */
+}
+.quickexamtext{
+    font-size: 14px;
+    color: #96BB7C;
+    font-weight: bold;
+    margin-bottom: 1rem;
+   
+}
+.packageheadline{
+    font-size: 40px;
+    color: #252B42;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
+
+
+
+}
+.packagepara{
+    color: #737373;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    width: 50%;
+    font-weight: bold;
+   
+    
+    word-spacing: 1px;
+}
+.packagesectionbox{
+    height: 40%;
+    width: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    box-sizing: border-box;
+
+    
+}
+.packagechildbox{
+    /* height: 100%; */
+    width: 30%;
+    /* border: 1px solid aqua; */
+    box-shadow: 0px 0px 11px lightgrey;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 3rem;
+    gap: 1rem;
+    padding-right: 5rem;
+   
+
+
+}
+.packageicon{
+    margin-bottom: 1rem;
+}
+.coursestext{
+    color: #252B42;
+    font-size: 14px;
+    font-weight: bold;
+   /* margin-bottom: 1rem; */
+   letter-spacing: 0.1px;
+}
+.borderdiv{
+    height: 2px;
+    width: 30%;
+    background-color: #e74040dc;
+    /* box-sizing: border-box; */
+    display: block;
+   
+
+}
+.descriptionpara{
+    color: #737373;
+    font-size: 12px;
+    font-weight: 700;
+    /* width: 70%; */
+    /* margin-top: 1rem; */
+
+}
+.packagechildbox:hover{
+    background-color: #96BB7C;
+    color: white;
+    
+}
+.packagechildbox:hover .borderdiv{
+    background-color: white;
+}
+.packagechildbox:hover .coursestext{
+    color: white;
+}
+.packagechildbox:hover .descriptionpara{
+    color: white;
+
+}
+/* popular course section */
+#popularcoursesection{
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.popularcontentbox{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+
+    
+}
+.girlimage{
+    margin-left: -2rem;
+    object-fit: cover;
+}
+.populardescpbox{
+    /* border: 1px solid black; */
+    
+    padding: 5.5rem;
+    
+    
+    
+
+
+}
+.divforborder{
+    height: 6px;
+    width: 5rem;
+    background-color: #E74040;
+    box-sizing: border-box;
+}
+.popularheadline{
+    font-size: 40px;
+    color: #252B42;
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+    /* width: 40%; */
+    margin-top: 2rem;
+    
+
+}
+.popularpara{
+    color: #737373;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    /* width: 45%; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+}
+.learnmoretext{
+    color: #96BB7C;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+/* teacher or package section page 4 */
+#page4section{
+    height: 130vh;
+    width: 100vw;
+    background-color: #EFF8ED;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    
+}
+.informationbox{
+    /* border: 1px solid black; */
+    width: 75%;
+    margin-top: 2rem;
+    
+
+
+}
+.boxtext{
+    font-size: 14px;
+    color: #96BB7C;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    
+    
+}
+.boxheadline{
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+    margin-top: 1rem;
+    
+
+
+}
+.boxpara{
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    width: 40%;
+    margin-top: 0.5rem;
+
+
+}
+.coursesparentbox{
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 6rem;
+
+
+}
+.childboxes{
+    height: 100%;
+    width: 30%;
+    box-shadow: 0px 0px 11px lightgrey;
+
+
+}
+.backimg1{
+    height: 50%;
+    width: 100%;
+    background-image: url(assests/images/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.salebox{
+    width: 15%;
+    height: 8%;
+    background-color: #E74040;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+   
+}
+.saletext{
+    font-size: 12px;
+    color: white;
+    
+}
+.imageiconbox{
+
+   /* background-color: #E74040; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+
+
+
+}
+.iconbgdiv{
+     border-radius: 50%;
+    background-color: white;
+}
+.actualicons{
+    object-fit: cover;
+    margin: 0.5rem;
+}
+.bottombox{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+.Trainingcoursediv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    /* border: 1px solid black; */
+}
+.Trainingcoursetext{
+    font-size: 14px;
+    color: #96BB7C;
+    letter-spacing: 0.2px;
+    
+}
+.Trainingiconbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: #2D4059;
+    border-radius: 20px;
+    padding: 0.2rem 0.2rem;
+}
+.Trainingstaricon{
+    object-fit: cover;
+    
+    
+
+}
+.Trainingnumber{
+    font-size: 12px;
+    color: white;
+}
+.ApprodablePackages{
+    font-size: 16px;
+    color: #252B42;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.bottomboxpara{
+    font-size: 12px;
+    color: #737373;
+    width: 70%;
+    margin-top: 0.5rem;
+    font-weight: bold;
+
+
+}
+.scalesdiv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.2rem;
+}
+.Salestext{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #737373;
+    margin: 1rem;
+
+
+}
+.number1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #BDBDBD;
+}
+.number2{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFAB71;
+    margin-left: 0.2rem;
+}
+.iconandspanbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1rem;
+}
+.iconandspantext{
+    font-size: 12px;
+    color: #737373;
+    letter-spacing: 0.2px;
+}
+.page4learnmorebutton{
+    
+    border: 1px solid #96BB7C;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 2rem;
+    height: 12%;
+    width: 55%;
+
+}
+.page4learnmorebuttontext{
+    color: #96BB7C;
+    font-size: 15px;
+   
+    
+}
+.backimg2{
+    height: 50%;
+    width: 100%;
+    background-image: url(assests/images/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.backimg3{
+    height: 50%;
+    width: 100%;
+    background-image: url(assests/images/image3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.backimg4{
+    height: 50%;
+    width: 100%;
+    background-image: url(assests/images/image4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* page 5 starts from here */
+#page5section{
+    height: 140vh;
+    width: 100vw;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 3rem;
+
+
+}
+.boxheadline2{
+    font-size: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.coursesparentbox2{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 6rem;
+
+
+}
+.childboxes2{
+    height: 100%;
+    width: 30%;
+    box-shadow: 0px 0px 11px lightgrey;
+    padding: 3rem;
+    box-sizing: border-box;
+
+
+}
+.childboxes3{
+    height: 100%;
+    width: 30%;
+    box-shadow: 0px 0px 11px lightgrey;
+    padding: 3rem;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+.newdiv{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #E77C40;
+    position: absolute;
+    right: -1rem;
+    top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newtext{
+    color: white;
+    font-size: 14px;
+    margin: 2rem 2rem;
+    font-weight: bold;
+}
+.hearticonbg{
+    height: 9%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: #96BB7C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+.hearticon2{
+   /* margin: 2rem; */
+    height: 40%;
+    
+}
+.freetext{
+    font-size: 20px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+}
+.Organizepara{
+    color: #737373;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    width: 80%;
+    margin-bottom: 2rem;
+
+}
+
+.dollerninteentext{
+    color: #96BB7C;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    margin-bottom: 0.2rem;
+
+
+}
+.permonthtext{
+    color: #8EC2F2;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    
+
+    
+}
+.slatepara{
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    margin-top: 2rem;
+
+
+}
+.tryforfreebutton{
+    
+    width: 80%;
+    background-color: #96BB7C;
+    border-radius: 4px;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.tryforfreetext{
+    color: white;
+    font-size: 14px;
+    margin-top: 2rem;
+
+
+}
+.tickbox{
+ display: flex;
+ justify-content: start;
+ align-items: center;
+ gap: 0.5rem;
+ margin-top: 1rem;
+}
+.circleicon{
+    height: 10%;
+    width: 10%;
+  
+}
+.productupdates{
+    font-size: 12px;
+    color: #252B42;
+}
+/* testimonalssection page 6 */
+
+#testimonalssection{
+    height: 85vh;
+    width: 100vw;
+    background-color: white;
+    /* border: 1px solid black; */
+   padding: 6rem 6rem;
+  
+}
+.testimonalsdescbox{
+    margin-bottom: 5rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
+   
+
+}
+.parentboxabout{
+    /* border: 1px solid black; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 70%;
+    margin-left: 6rem;
+    gap: 6rem;
+    margin-top: 6rem;
+
+
+
+}
+.testimonalstext{
+ color: #96BB7C;
+ font-size: 12px;
+ font-weight: bold;
+
+}
+.getedu{
+    font-size: 40px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-weight: bolder;
+}
+.getpara{
+    font-size: 12px;
+    color: #737373;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    width: 40%;
+    margin-top: 1rem;
+
+
+}
+.aboutchildbox{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+
+
+
+}
+/* .girl1pfp{
+    
+} */
+.pfppara{
+    color: #737373;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    width: 80%;
+    line-height: 1.2rem;
+
+}
+
+.girlsname{
+    font-size: 14px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+
+
+}
+.Designer{
+    font-size: 12px;
+    color: #737373;
+    font-weight: bold;
+}
+/* newsletter section */
+#newslettersection{
+    height: 60vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    /* margin-bottom: 5rem; */
+    /* border: 1px solid black; */
+
+    
+
+}
+.Newslettertext{
+    font-size: 12px;
+    color: #96BB7C;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.getpara2{
+    color: #737373;
+    font-size: 13px;
+    font-weight: bold;
+    
+    letter-spacing: 0.2px;
+}
+.expertteacher{
+    color: #252B42;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
+
+
+}
+.emailparentbox{
+    display: flex;
+    width: 45%;
+    height: 12%;
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+.youremailbox{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0.244);
+    
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.655);
+
+
+    
+}
+.subscribebutton{
+    width: 20%;
+    height: 100%;
+    background-color: #96BB7C;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem;
+
+
+
+}
+.emailtext{
+    color: #737373;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.subscribetext{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+/* last page */
+#Contactpage{
+    height: 30vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-left: 5rem;
+    
+
+}
+.smallboxes{
+    margin-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+}
+.boldwords{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+.normalwords{
+    color: #737373;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+
+}
+.normalwordsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+.smallboxes2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    margin-left: 1rem;
+
+}
+.normalwordsbox2{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+#footerbox{
+    height: 10vh;
+    width: 100vw;
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerpara{
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+.socialmediaiconbox{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+}

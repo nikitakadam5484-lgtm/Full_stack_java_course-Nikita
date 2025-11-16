@@ -1,0 +1,11 @@
+There are some naming convention methods in java,
+
+1] camelCase = it is used for variables, functions, methods names and it looks like [studentInfo]
+mhanje start che word he small letter ne chalu karyche but next word ha capital letter ne chalu karycha. without space
+
+2]PascalCase = it is used for class, interface, constructor names and it looks like [StudentInfo]
+mhanje doni word che first letter he capitalch pahijet.without space
+
+3]snake_case = it is used in python not in java , it looks like [student_info]
+mhanjhe doni word chya madhe underscore dycha.
+

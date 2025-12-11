@@ -1,0 +1,34 @@
+Control Statements in java :-
+	
+	in java there are two types of statements 
+		1] Sequential statements
+		2] Control statements
+
+1] Sequential Statements :-
+	this are the statements which are executed one by one. 
+
+
+	
+
+class Demo{
+	public static void main(String[]args){
+		System.out.println("Hello World");
+		System.out.println("Hello Java");
+	}
+}
+
+it is executed sequentially i.e line by line 
+
+
+
+1] Control Statements :-
+	this are the statements that are executed randomly and repeatedly.
+
+Control Statements available in java :-
+
+	1]if-else
+	2]for loop
+	3]while loop
+	4]switch statement
+	5]break statement
+	6]continue statement

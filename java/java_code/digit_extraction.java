@@ -35,18 +35,39 @@ it gives [4321]. ata hite pan reverse hote but adhi jase separate out no. bhetat
 
 */
 
+/**
+2] Number Length Count :-
 
-//2] Number Length Count :-
-+
 class Demo{
 	public static void main(String[]args){
-		int num = 123;
+		int num = 1234;
 		int count = 0;
 		while (num>0){
 			int rem = num % 10;
 			count ++;
 			num = num / 10;
 		}
-		System.
+		System.out.println(count);
 	}
 }
+
+it gives [4]. ethe first rem kadhla jato ani then count chi value increment karto ani then mg ti print karto asech kele ahe.
+*/
+
+// 3] Addition of each digit :-
+
+class Demo{
+	public static void main(String[]args){
+		int num = 1234;
+		int sum = 0;
+		while (num>0){
+			int rem = num % 10;
+			sum = sum + rem;
+			num = num / 10;
+		}
+		System.out.println(sum);
+	}
+}
+
+it gives [10]. ethe adhi 
+

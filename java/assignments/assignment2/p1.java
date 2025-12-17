@@ -169,7 +169,6 @@ Input: 20 30
 Output:
 Before Swap: 20 30
 After Swap : 30 20
-*/
 
 import java.util.Scanner;
 class Demo{
@@ -191,6 +190,8 @@ class Demo{
 		System.out.println("After Swap :" + num1 + " " + num2);		
 	}
 }
+
+*/
 
 
 /**

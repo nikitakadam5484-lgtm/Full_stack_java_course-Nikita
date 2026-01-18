@@ -227,7 +227,7 @@ class Demo{
 it gives [2]. break use kele tymulete sapadle ki directly for loop madhunch baher padte. pudhe check nahi karat.
 */
 
-
+/**
 class Demo{
 	public static void main(String[]args){
 		int[] arr = {40,10,50,80};
@@ -236,4 +236,151 @@ class Demo{
 		}
 	}
 }
- //reverse array kadycha asel tar. [80 50 10 40].
+ reverse array kadycha asel tar. [80 50 10 40].
+*/
+
+
+
+
+
+
+
+/**
+import java.util.*;
+class Demo{
+	public static void main(String[] args){
+		int arr[] = {7,4,5,9,1};
+		int arr1[] = new int [5]; 
+	
+		for(int i = 0; i < arr.length; i++){
+			if(arr[i] % 2 != 0){
+				arr1[i] = arr[i];
+				System.out.println(arr[i]); // it gives 7,5,9,1
+			} 
+		} 
+		System.out.println(Arrays.toString(arr1));//[7,0,5,9,1]
+
+		for(int j = 0; j < arr1.length ; j++){
+			System.out.println(arr1[j]);//7,0,5,9,1
+		} 
+	}
+}
+*/
+
+
+/**
+import java.util.*;
+class Demo{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter len : ");
+		int len = sc.nextInt();//eg,=4
+
+		
+		int arr[] = new int[len];//[0,0,0,0]
+
+		int new_arr[] = new int[len];//[0,0,0,0]
+
+		System.out.println("Enter Array Elements : ");
+		for(int i = 0; i < len; i++){
+			arr[i] = sc.nextInt();
+			new_arr[i] = arr[i];	
+		}
+
+		System.out.println("Entered Array Elements : ");
+		for(int j = 0; j < len; j++){
+			System.out.println(arr[j]);//10,20,30,40
+		}
+
+		System.out.println(Arrays.toString(arr));//[10,20,30,40]
+
+		
+ 		System.out.println(Arrays.toString(new_arr));//[10,20,30,40]
+	}
+}
+*/
+
+
+/**
+import java.util.*;
+class Demo{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter len : ");
+		int len = sc.nextInt();
+
+		
+		int arr[] = new int[len];
+
+		int new_arr[] = new int[len];
+
+		System.out.println("Enter Array Elements : ");
+		for(int i = 0; i < len; i++){
+			arr[i] = sc.nextInt();
+			new_arr[len - (i+1)] = arr[i];	
+		}
+
+
+		System.out.println(Arrays.toString(arr));//[10,20,30,40]
+
+		
+ 		System.out.println(Arrays.toString(new_arr));//[40,30,20,10]
+
+	}
+}
+
+								OR
+
+import java.util.*;
+class Demo{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter len : ");
+		int len = sc.nextInt();
+
+		
+		int arr[] = new int[len];
+
+		int new_arr[] = new int[len];
+
+		System.out.println("Enter Array Elements : ");
+		for(int i = 0; i < len; i++){
+			arr[i] = sc.nextInt();
+			new_arr[len - (i+1)] = arr[i];	
+		}
+
+
+		System.out.println(Arrays.toString(arr));//[10,20,30,40]
+
+		
+ 		System.out.println(Arrays.toString(new_arr));//[40,30,20,10]
+
+	}
+}
+
+*/
+
+import java.util.*;
+class Demo{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		
+		int arr[] = {1,2,3,4};
+		int temp = 0;
+
+		for(int i = 0; i < arr.length; i++){
+			temp = arr[i];
+			arr[i] = arr[arr.length - (i+1)];
+			arr[arr.length - (i+1)] = temp;	
+		}
+		
+		System.out.println(Arrays.toString(arr));
+
+	}
+}
+
+
+

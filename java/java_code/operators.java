@@ -338,21 +338,70 @@ ethe first condition true zali but we use the OR opeartor so we not going for fu
 */
 
 
-
+/**
 class Demo{
 	public static void main(String[]args){
 		System.out.println(!true);
 		System.out.println(!false);
 	}
 }
+*/
 
 
 
 
+/**
+class Demo{
+	public static void main(String[]args){
+		int a = 10;
+		int b = 12;
+		if(++a<b || ++a>b++){
+			
+			System.out.println(a);
+			System.out.println(b);
+		}
+		
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+
+it gives 11 12 11 12
+*/
+
+/**
+class Demo{
+	public static void main(String[]args){
+		int a = 10;
+		int b = 12;
+		if(a++<b || ++a<++b){
+			
+			System.out.println(a);
+			System.out.println(b);
+		}
+		
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+*/
 
 
 
-
+class Demo{
+	public static void main(String[]args){
+		int a = 10;
+		int b = 12;
+		if(a++<b && ++a<++b){
+			
+			System.out.println(a);
+			System.out.println(b);
+		}
+		
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
 
 
 
